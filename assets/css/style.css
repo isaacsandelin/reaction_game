@@ -21,3 +21,20 @@ body {
 .display-text {
     font-size: 2rem;
 }
+
+.latest-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    padding: 3vh;
+    width: 30%;
+    text-align: center;
+}
+
+.score:nth-child(odd) {
+    background-color: #ffffff28;
+}
