@@ -28,7 +28,10 @@ function play() {
 
 clickArea.addEventListener("click", () => {
     if (waitingForClick) {
+        const score = Date.now() - msSinceEpochOnTimeout;
 
+        waitingForClick = false;
+        displayText.textContent = `Your Time Was ${score} ms! Click to play again`
     } else {
         play();
     }
