@@ -65,5 +65,47 @@ header {
     background-size: cover;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10vh;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #D62246;
+    margin-top: 2vh;
+    margin-left: 6vh;
+    padding: 2vh 5vh 2vh 5vh;
+    border-radius: 2vh;
+    width: fit-content;
+}
+
+header h1 {
+    font-size: 3rem;
+    width: 50%;
+    margin-left: 6vh;
+}
+
+/* HOW TO PLAY */
+
+#how-to-play {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#how-to-play h1 {
+    margin-left: 6vh;
+    margin-top: 10vh;
+    font-size: 3rem;
+}
+
+#how-to-play ol {
+    margin-left: 6vh;
+    margin-top: 5vh;
+    font-size: 2rem;
+    list-style-position: inside;
+}
+
+#how-to-play li {
+    padding-top: 4vh;
 }
