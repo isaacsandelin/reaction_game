@@ -26,4 +26,10 @@ function play() {
     },msTillChange);
 }
 
-play();
+clickArea.addEventListener("click", () => {
+    if (waitingForClick) {
+
+    } else {
+        play();
+    }
+})
