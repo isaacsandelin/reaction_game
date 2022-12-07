@@ -26,12 +26,26 @@ function play() {
     },msTillChange);
 }
 
+function addScore(score) {
+    // Adding score to the empy array
+    scoreHistory.unshift(score);
+
+    for (let i = 0; i < scoreHistory.length; i++) {
+        const score = scoreHistory[i];
+
+        scoreElements[i].textContent = `${score} ms`;
+        
+    }
+}
+
 clickArea.addEventListener("click", () => {
     if (waitingForClick) {
         const score = Date.now() - msSinceEpochOnTimeout;
 
         waitingForClick = false;
-        displayText.textContent = `Your Time Was ${score} ms! Click to play again`
+        displayText.textContent = `Your Time Was ${score} ms! Click to play again`;
+
+        addScore(score)
     } else {
         play();
     }
