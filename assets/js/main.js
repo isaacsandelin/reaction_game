@@ -15,6 +15,15 @@ function play() {
 
     // Resets the color back to start
     clickArea.style.backgroundColor = null;
+
+    displayText.textContent = " ";
+
+    setTimeout (() => {
+        msSinceEpochOnTimeout = Date.now();
+
+        clickArea.style.backgroundColor = "#D62246"
+        waitingForClick = true;
+    },msTillChange);
 }
 
 play();
