@@ -12,4 +12,9 @@ let waitingForClick = false;
 
 function play() {
     const msTillChange = Math.floor(Math.random() * (MAXIMUM_MS_TILL_CHANGE - MINIMUM_MS_TILL_CHANGE)) + MINIMUM_MS_TILL_CHANGE;
+
+    // Resets the color back to start
+    clickArea.style.backgroundColor = null;
 }
+
+play();
