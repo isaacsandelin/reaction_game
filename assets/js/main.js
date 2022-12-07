@@ -30,7 +30,7 @@ function addScore(score) {
     // Adding score to the empy array
     scoreHistory.unshift(score);
 
-    for (let i = 0; i < scoreHistory.length; i++) {
+    for (let i = 0; i < Math.min(scoreHistory.length, 5); i++) {
         const score = scoreHistory[i];
 
         scoreElements[i].textContent = `${score} ms`;
