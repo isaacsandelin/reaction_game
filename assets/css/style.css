@@ -55,6 +55,14 @@ body {
     font-size: 2rem;
 }
 
+#info-to-play {
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 160vh;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 /* HOME */
 
 header {
@@ -96,7 +104,6 @@ header h1 {
 
 #how-to-play h1 {
     margin-left: 6vh;
-    margin-top: 10vh;
     font-size: 3rem;
 }
 
