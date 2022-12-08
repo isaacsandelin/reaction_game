@@ -37,7 +37,7 @@ function addScore(score) {
         
     }
 }
-
+    // Shows your score
 clickArea.addEventListener("click", () => {
     if (waitingForClick) {
         const score = Date.now() - msSinceEpochOnTimeout;
