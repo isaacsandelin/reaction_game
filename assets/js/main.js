@@ -45,8 +45,8 @@ clickArea.addEventListener("click", () => {
         waitingForClick = false;
         displayText.textContent = `Your Time Was ${score} ms! Click to play again`;
 
-        addScore(score)
+        addScore(score);
     } else {
         play();
     }
-})
+});
