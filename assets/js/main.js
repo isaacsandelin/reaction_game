@@ -21,7 +21,7 @@ function play() {
     setTimeout (() => {
         msSinceEpochOnTimeout = Date.now();
 
-        clickArea.style.backgroundColor = "#D62246"
+        clickArea.style.backgroundColor = "#D62246";
         waitingForClick = true;
     },msTillChange);
 }
