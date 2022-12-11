@@ -21,6 +21,11 @@ The features in this game are created to enhance the user experience.
 
 <img src="assets/images/about-contact.png">
 
+* **Submiting email**
+    - You get to this page when you have submitted your email, from here you can push the button to get direct to the game area. 
+
+<img src="assets/images/thanks.png">
+
 * **Game Area**
     - This page is where the user plays the game. The large section of this image is displayed at the top of the page. And has text on it that describes what the user should do to start the game. 
 
@@ -43,7 +48,7 @@ The features in this game are created to enhance the user experience.
 - Add sound for when the colors change so the visually impaired can play.
 
 ## **Testing**
-.......................
+Through out the process of creating this game I have tested the code and functionallity to make sure that bugs or errors builds up, whitch would make it hard to spot bugs or fixes that have been made early in the process. 
 ## **Validator testing**
 
 * **HTML**
@@ -60,4 +65,24 @@ The features in this game are created to enhance the user experience.
 
 ## **Unfixed Bugs**
 There are no unfixed bugs relating to the functionality of the website. But regarding to the Jshint validator showing errors could be a bug that should be fixed.
+
+## **Deployment**
+The site was deployed to GitHub pages. 
+* The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab.
+    - Under code and automation, navigate to pages.
+    - From the source section drop-down menu, select the Master Branch
+     - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://isaacsandelin.github.io/reaction_game/index.html
+
+## **Credits**
+* Content
+    - Font were found in [Free Fonts](https://freefontsfamily.com/arial-font-family-free-download/).
+    - Icons were taken from [Font Awsome](https://fontawesome.com/).
+
+* Media
+    - Images were downloaded from [Pexels](https://www.pexels.com/sv-se/).
+    - Images were converted to webp fromat on [CloudConvert](https://cloudconvert.com/).
+
 
